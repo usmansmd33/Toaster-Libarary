@@ -27,6 +27,7 @@ public class Calculator extends AppCompatActivity {
                 }
                 if (textsecondNo.getText().toString().isEmpty()) {
                     textsecondNo.setError("Enter Second Number");
+                    return;
                 }
 
                 double a = Double.parseDouble(textFirstNo.getText().toString());

@@ -17,6 +17,6 @@ public class ToasterMessage {
     }
 
     public static void display(Context c, int result) {
-        s(c,"The Result is"+result);
+        s(c,"The Result is : "+result);
     }
 }
