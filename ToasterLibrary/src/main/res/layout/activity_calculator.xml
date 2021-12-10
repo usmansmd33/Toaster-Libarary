@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculator"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtfirst"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:hint="Enter First Number"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLength="10"
+        android:background="@drawable/round"/>
+
+    <EditText
+        android:id="@+id/txtsecond"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Second Number"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLength="10"
+        android:background="@drawable/round"/>
+
+    <Button
+        android:id="@+id/btnsum"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Calculate Sum"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/gray"/>
+
+</LinearLayout>
